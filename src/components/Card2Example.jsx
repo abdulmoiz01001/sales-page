@@ -1,4 +1,4 @@
-import { Card2 } from "./Card";
+import { Card2 } from "./Card.jsx";
 // import image from "pro.jfif";
 
 export const Card2Example = () => {
