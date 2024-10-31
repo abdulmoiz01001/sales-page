@@ -51,7 +51,7 @@ const SalesPage = () => {
         <div className='container'>
             <div className='sub-container'>
                 <div className='profile'>
-                    <img src='../../src/assets/pro.jfif' alt='profile' />
+                    <img src='pro.jfif' alt='profile' />
                     <h2>John Doe</h2>
                     <p>Sharing My Journey To 6 Figures w/ Digital Products</p>
                     <div className='social-icons'>
@@ -66,7 +66,7 @@ const SalesPage = () => {
                             {digitalMarketingOffers.map((offer, index) => (
                                 <div className='card' key={index}>
                                     <div className='card-details'>
-                                        <img src="../../src/assets/c1.jfif" alt="" />
+                                        <img src="c1.jfif" alt="" />
                                         <div className='text'>
                                             <h3>{offer.title}</h3>
                                             {offer.description && <p>{offer.description}</p>}
